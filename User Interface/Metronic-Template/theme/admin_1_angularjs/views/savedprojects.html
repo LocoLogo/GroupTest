@@ -2,21 +2,21 @@
 <div class="page-bar">
     <ul class="page-breadcrumb">
         <li>
-            <a ui-sref="dashboard">Projects</a>
+            <a ui-sref="dashboard">All Projects</a>
             <i class="fa fa-circle"></i>
         </li>
         <li>
-            <a ui-sref="blank">All</a>
+            <a ui-sref="savedprojects">Saved Projects</a>
         </li>
     </ul>
     <div class="page-toolbar">
     </div>
 </div>
-<h3 class="page-title"> All Projects
+<h3 class="page-title"> Saved Projects
 </h3>
 <!-- END PAGE HEADER-->
 <!-- BEGIN MAIN CONTENT -->
-<div class="row" ng-controller="DashboardController">
+<div class="row" ng-controller="SavedProjectsController">
     <!--SINGLE PROJECT COMPONENT HERE-->
     <div data-ng-include="'tpl/project.html'"> </div>
     <!--END SINGLE PROJECT COMPONENT HERE-->
